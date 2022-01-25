@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import './index.css'
 const api = {
   key: "63e32daa2504573792b08754de1cefff",
   base: "https://api.openweathermap.org/data/2.5/"
-}
+} 
 
 function App() {
   const [query, setQuery] = useState('');
@@ -36,7 +37,7 @@ function App() {
     <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'app warm' : 'app') : 'app'}>
       <main>
         <div className="search-box">
-          <input 
+          <input
             type="text"
             className="search-bar"
             placeholder="Search..."
@@ -65,4 +66,3 @@ function App() {
 }
 
 export default App;
-
