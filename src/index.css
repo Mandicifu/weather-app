@@ -36,12 +36,7 @@ main {
 }
 
 .search-box {
-<<<<<<< HEAD
   width: 70%;
-=======
-
-  width: 50%;
->>>>>>> 0ff98bf894f6899d1470de4230647542e355c2ac
   margin: 20px auto;
   padding: 10px;
   border:10px;
